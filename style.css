@@ -236,7 +236,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   margin-bottom: 36px;
 }
 .capa-logo img {
-  height: 110px;
+  height: clamp(180px, 20vw, 280px);
   width: auto;
   object-fit: contain;
   border-radius: 4px;
@@ -461,8 +461,30 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   transition: color var(--transition);
 }
 .servico-card:hover .servico-num { color: rgba(201,168,76,0.25); }
+.servico-card { cursor: pointer; }
+.servico-card:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 .servico-card h3 { font-family: var(--font); font-size: 1.1rem; font-weight: 700; margin-bottom: 12px; }
 .servico-card p { font-size: 0.88rem; color: var(--gray); line-height: 1.7; }
+.servico-ver-fotos {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 16px;
+  font-family: var(--font);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity var(--transition), transform var(--transition);
+}
+.servico-card:hover .servico-ver-fotos,
+.servico-card:focus-visible .servico-ver-fotos {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 /* ===== PORTFÓLIO ===== */
 .portfolio { padding: 120px 24px; }
@@ -738,6 +760,20 @@ a.contato-valor:hover { color: var(--gold); }
 .lightbox-img-wrap { text-align: center; max-width: 90vw; }
 .lightbox-img-wrap img { max-height: 80vh; max-width: 90vw; border-radius: var(--radius); }
 .lightbox-img-wrap p { margin-top: 12px; color: var(--gray); font-size: 0.85rem; }
+.lightbox-description:not(.empty) {
+  margin-top: 16px !important;
+  color: var(--white) !important;
+  font-size: 1.15rem !important;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  background: rgba(10, 10, 10, 0.85);
+  padding: 12px 28px;
+  border-radius: var(--radius);
+  display: inline-block;
+  border-bottom: 2px solid var(--gold);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+  backdrop-filter: blur(8px);
+}
 .lightbox-close, .lightbox-prev, .lightbox-next {
   position: absolute;
   color: var(--white);
@@ -777,4 +813,21 @@ a.contato-valor:hover { color: var(--gold); }
   .capa-title { font-size: clamp(2.4rem, 10vw, 3.5rem); }
   .portfolio-filters { gap: 8px; }
   .filter-btn { font-size: 0.65rem; padding: 7px 14px; }
+}
+
+/* ===== PORTFOLIO ITEM DESTAQUE ===== */
+.portfolio-item[data-featured="true"] {
+  grid-column: span 2;
+}
+.portfolio-item[data-featured="true"] .portfolio-img-wrap {
+  aspect-ratio: 16/9;
+  box-shadow: 0 0 0 2px var(--gold), 0 8px 40px rgba(201,168,76,0.22);
+  border-radius: var(--radius);
+}
+.portfolio-item[data-featured="true"] .portfolio-overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.88) 0%, transparent 55%);
+}
+@media (max-width: 768px) {
+  .portfolio-item[data-featured="true"] { grid-column: span 1; }
+  .portfolio-item[data-featured="true"] .portfolio-img-wrap { aspect-ratio: 4/3; }
 }
