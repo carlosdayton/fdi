@@ -390,8 +390,7 @@ const portfolioFolders = [
     files: [
       'acrilico + pvc expandido .jpeg', 'adesivagem e lona em evento.jpeg', 'adesivo em parede circular.jpeg',
       'cordão personalizado.jpeg', 'display acrilico wifi.jpeg', 'dsd entrada.jpeg', 'DTF BLOCO DE NOTAS.jpeg',
-      'empena ciplan.jpeg', 'IMG_20251009_065101_212.webp', 'IMG-20241111-WA0199.jpg',
-      'IMG-20241129-WA0199.jpg', 'IMG-20250802-WA0119 (1).jpg',
+      'empena ciplan.jpeg', 'IMG-20241129-WA0199.jpg', 'IMG-20250802-WA0119 (1).jpg',
       'IMG-20250802-WA0119 (2).jpg', 'IMG-20250802-WA0119.jpg', 'IMG-20251114-WA0029.jpg',
       'IMG-20251229-WA0067.jpg', 'IMG-20251229-WA0099.jpg', 'laboratorio vc 2.jpeg',
       'laboratorio vc 3.jpeg', 'laboratorio vc 4.jpeg', 'laboratorio vc.jpeg', 'letra caixa distak.jpeg',
@@ -411,8 +410,6 @@ const portfolioFolders = [
       'dsd entrada.jpeg': 'PAREDE PERSONALIZADA EM PVC EXPANDIDO + QUADRO COM IMPRESSÃO DIGITAL',
       'DTF BLOCO DE NOTAS.jpeg': 'Kit evento personalizado',
       'empena ciplan.jpeg': 'Empena em lona para fábricas',
-      'IMG_20251009_065101_212.webp': '',
-      'IMG-20241111-WA0199.jpg': '',
       'IMG-20241129-WA0199.jpg': 'Logo em acrílico com iluminação personalizada',
       'IMG-20250802-WA0119 (1).jpg': 'Outdoor de identificação',
       'IMG-20250802-WA0119 (2).jpg': 'Outdoor de identificação',
