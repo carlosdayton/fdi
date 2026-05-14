@@ -87,9 +87,9 @@ const portfolioFolders = [
     label: 'ADESIVAGEM DE PAREDE',
     folder: 'ADESIVAGEM DE PAREDE',
     files: [
-      'abcdente adesivo perfurado.jpeg', 'abcdente entrada.jpeg', 'acrilico mais adesivo .jpeg', 'adesivagem de freezer .jpeg',
+      'acrilico mais adesivo .jpeg', 'adesivagem de freezer .jpeg',
       'adesivagem de parede .jpeg', 'adesivagem frezzer.jpeg', 'adesivagem mercado.jpeg', 'adesivagem parede ciplan.jpeg',
-      'adesivagem porta escola tecnica.jpeg', 'adesivagem vidro .jpeg', 'adesivo drogaria colorado.jpeg',
+      'adesivagem porta escola tecnica.jpeg', 'adesivagem vidro .jpeg',
       'adesivo entrada herbalife.jpeg', 'adesivo parede vc.jpeg', 'adesivo perfurado voolivre.jpeg', 'adesivo recortado.jpeg',
       'adesivo voolivre.jpeg', 'adesivos parede.jpeg', 'Captura de tela 2026-01-19 120704.jpg',
       'crer adesivagem porta.jpeg', 'faixa de segurança ciplan.jpeg', 'faixa de segurança safa.jpeg',
@@ -98,8 +98,6 @@ const portfolioFolders = [
       'motz entrada.jpeg', 'motz parede.jpeg', 'motz transporte.jpeg', 'parede adesivada safa.jpeg', 'parede salute.jpeg'
     ],
     descriptions: {
-      'abcdente adesivo perfurado.jpeg': '',
-      'abcdente entrada.jpeg': '',
       'acrilico mais adesivo .jpeg': '',
       'adesivagem de freezer .jpeg': '',
       'adesivagem de parede .jpeg': '',
@@ -108,7 +106,6 @@ const portfolioFolders = [
       'adesivagem parede ciplan.jpeg': '',
       'adesivagem porta escola tecnica.jpeg': '',
       'adesivagem vidro .jpeg': '',
-      'adesivo drogaria colorado.jpeg': '',
       'adesivo entrada herbalife.jpeg': '',
       'adesivo parede vc.jpeg': '',
       'adesivo perfurado voolivre.jpeg': '',
@@ -161,34 +158,31 @@ const portfolioFolders = [
   },
   {
     slug: 'banners',
-    label: 'BANNERS',
+    label: 'LONAS',
     folder: 'BANNERS',
     files: [
-      '20260115_182544.jpg', '20260115_182547.jpg', '20260121_143540.jpg', 'banners modelos.jpeg',
-      'IMG_20250909_175642.jpg', 'IMG-20250701-WA0363.jpg', 'IMG-20250802-WA0131.jpg', 'IMG-20251112-WA0188.jpg',
-      'IMG-20251112-WA0190.jpg', 'outdoor ciplan 2.jpeg', 'outdoor ciplan.jpeg',
+      '20260115_182547.jpg', '20260121_143540.jpg', 'banners modelos.jpeg',
+      'IMG_20250909_175642.jpg',
       'outdoor.jpeg'
     ],
     descriptions: {
-      '20260115_182544.jpg': 'Banner Informativo',
-      '20260115_182547.jpg': 'Banner Informativo',
+      '20260115_182547.jpg': 'Lona Informativa',
       '20260121_143540.jpg': 'Lona personalizada para carnaval',
-      'banners modelos.jpeg': 'Banner Informativo',
-      'IMG_20250909_175642.jpg': 'Banner Empresarial',
-      'IMG-20250701-WA0363.jpg': 'Backdrop',
-      'IMG-20250802-WA0131.jpg': 'Lona informativa',
-      'IMG-20251112-WA0188.jpg': 'Lona para anúncios',
-      'IMG-20251112-WA0190.jpg': 'Outdoor',
-      'outdoor ciplan 2.jpeg': 'Outdoor para lojas',
-      'outdoor ciplan.jpeg': 'Outdoor para lojas',
+      'banners modelos.jpeg': 'Lona Informativa',
+      'IMG_20250909_175642.jpg': 'Lona Empresarial',
       'outdoor.jpeg': 'Lona para anúncios'
     }
   },
   {
     slug: 'backdrop-fotografico', label: 'BACKDROP FOTOGRÁFICO', folder: 'BANNERS',
-    files: ['IMG-20251210-WA0195.jpg'],
+    files: ['IMG-20251210-WA0195.jpg', 'IMG-20250701-WA0363.jpg', 'IMG-20250802-WA0131.jpg', 'IMG-20251112-WA0188.jpg', 'outdoor ciplan 2.jpeg', 'outdoor ciplan.jpeg'],
     descriptions: {
-      'IMG-20251210-WA0195.jpg': 'Backdrop'
+      'IMG-20251210-WA0195.jpg': 'Backdrop',
+      'IMG-20250701-WA0363.jpg': 'Backdrop',
+      'IMG-20250802-WA0131.jpg': 'Backdrop',
+      'IMG-20251112-WA0188.jpg': 'Backdrop',
+      'outdoor ciplan 2.jpeg': 'Backdrop',
+      'outdoor ciplan.jpeg': 'Backdrop'
     }
   },
   {
@@ -218,21 +212,19 @@ const portfolioFolders = [
     label: 'INFLAVEIS',
     folder: 'INFLAVEIS',
     files: [
-      'IMG-20250802-WA0124.jpg', 'IMG-20250802-WA0125 (1).jpg', 'IMG-20250802-WA0125.jpg',
+      'IMG-20250802-WA0124.jpg', 'IMG-20250802-WA0125 (1).jpg',
       'IMG-20250802-WA0126.jpg', 'IMG-20250802-WA0127.jpg', 'IMG-20250802-WA0128.jpg',
-      'IMG-20250808-WA0057.jpg', 'IMG-20250808-WA0071 (1).jpg', 'IMG-20250808-WA0071.jpg',
+      'IMG-20250808-WA0057.jpg', 'IMG-20250808-WA0071 (1).jpg',
       'IMG-20251108-WA0098.jpg', 'inflavel .jpeg'
     ],
     descriptions: {
       'IMG-20250802-WA0124.jpg': 'Inflável estilo saco de cimento',
       'IMG-20250802-WA0125 (1).jpg': 'Inflável para divulgação em evento',
-      'IMG-20250802-WA0125.jpg': 'Inflável para divulgação em evento',
       'IMG-20250802-WA0126.jpg': 'Inflável imitando embalagem',
       'IMG-20250802-WA0127.jpg': 'Inflável imitando embalagem',
       'IMG-20250802-WA0128.jpg': 'Inflável para divulgação em evento',
       'IMG-20250808-WA0057.jpg': 'Inflável para divulgação',
       'IMG-20250808-WA0071 (1).jpg': 'Inflável para divulgação de bebida',
-      'IMG-20250808-WA0071.jpg': 'Inflável para divulgação de bebida',
       'IMG-20251108-WA0098.jpg': 'Inflável para evento promocional',
       'inflavel .jpeg': 'Inflável imitando embalagem'
     }
@@ -253,9 +245,9 @@ const portfolioFolders = [
     files: [
       'IMG_20250923_150036.jpg', 'IMG-20241128-WA0091.jpg', 'IMG-20250320-WA0302 (1).jpg',
       'IMG-20250320-WA0302.jpg', 'IMG-20251127-WA0308.jpg', 'IMG-20251127-WA0309.jpg',
-      'IMG-20251203-WA0029.jpeg', 'logo em acm dans burguer.jpeg', 'placa de acrilico.jpeg',
-      'placa de identificação laboratorio.jpeg', 'placa identificação .jpeg', 'placa identificação 2.jpeg',
-      'placa lotus 2.jpeg', 'placa lotus 3.jpeg', 'placa lotus.jpeg'
+      'IMG-20251203-WA0029.jpeg', 'placa de acrilico.jpeg',
+      'placa identificação .jpeg', 'placa identificação 2.jpeg',
+      'placa lotus 2.jpeg', 'placa lotus.jpeg'
     ],
     descriptions: {
       'IMG_20250923_150036.jpg': 'Logo em Acrílico',
@@ -265,13 +257,10 @@ const portfolioFolders = [
       'IMG-20251127-WA0308.jpg': 'Logo em Acrílico',
       'IMG-20251127-WA0309.jpg': 'Logo em Acrílico',
       'IMG-20251203-WA0029.jpeg': 'Logo em Acrílico',
-      'logo em acm dans burguer.jpeg': 'Logo em Acrílico',
       'placa de acrilico.jpeg': 'Logo em Acrílico',
-      'placa de identificação laboratorio.jpeg': 'Logo em Acrílico',
       'placa identificação .jpeg': 'Logo em Acrílico',
       'placa identificação 2.jpeg': 'Logo em Acrílico',
       'placa lotus 2.jpeg': 'Logo em Acrílico',
-      'placa lotus 3.jpeg': 'Logo em Acrílico',
       'placa lotus.jpeg': 'Logo em Acrílico'
     }
   },
@@ -282,7 +271,6 @@ const portfolioFolders = [
     files: [
       'ana bah brecho.jpeg', 'escola tecnica.jpeg', 'IMG_20251009_140926.jpg', 'IMG_20251009_140928.jpg',
       'IMG-20250511-WA0061.jpg', 'letra pvc expandido.jpg', 'logo friboi.jpeg', 'motz logo.jpeg',
-      'parede antes VOTORANTIM.jpeg', 'PAREDE DEPOIS VOTORANTIM .jpeg', 'PAREDE DURANTE VOTORANTIM.jpeg',
       'PLACA ACM .jpeg', 'placa crer 2.jpeg', 'placa pvc expandido ciplan.jpeg', 'placa radiomais.jpeg',
       'placa voolivre.jpeg', 'placa votorantim.jpeg', 'PVC EXPANDIDO RESIDENCIAL.jpeg'
     ],
@@ -295,9 +283,6 @@ const portfolioFolders = [
       'letra pvc expandido.jpg': 'Logo em PVC Expandido',
       'logo friboi.jpeg': 'Logo em PVC Expandido',
       'motz logo.jpeg': 'Logo em PVC Expandido',
-      'parede antes VOTORANTIM.jpeg': 'Logo em PVC Expandido',
-      'PAREDE DEPOIS VOTORANTIM .jpeg': 'Logo em PVC Expandido',
-      'PAREDE DURANTE VOTORANTIM.jpeg': 'Logo em PVC Expandido',
       'PLACA ACM .jpeg': 'Logo em PVC Expandido',
       'placa crer 2.jpeg': 'Logo em PVC Expandido',
       'placa pvc expandido ciplan.jpeg': 'Logo em PVC Expandido',
@@ -390,10 +375,11 @@ const portfolioFolders = [
     files: [
       'acrilico + pvc expandido .jpeg', 'adesivagem e lona em evento.jpeg', 'adesivo em parede circular.jpeg',
       'cordão personalizado.jpeg', 'display acrilico wifi.jpeg', 'dsd entrada.jpeg', 'DTF BLOCO DE NOTAS.jpeg',
-      'empena ciplan.jpeg', 'IMG-20241129-WA0199.jpg', 'IMG-20250802-WA0119 (1).jpg',
-      'IMG-20250802-WA0119 (2).jpg', 'IMG-20250802-WA0119.jpg', 'IMG-20251114-WA0029.jpg',
+      'empena ciplan.jpeg', 'IMG-20241111-WA0199.jpg', 'IMG-20241129-WA0199.jpg',
+      'IMG-20250802-WA0118.jpg', 'IMG-20250802-WA0119 (1).jpg',
+      'IMG-20251114-WA0029.jpg',
       'IMG-20251229-WA0067.jpg', 'IMG-20251229-WA0099.jpg', 'laboratorio vc 2.jpeg',
-      'laboratorio vc 3.jpeg', 'laboratorio vc 4.jpeg', 'laboratorio vc.jpeg', 'letra caixa distak.jpeg',
+      'IMG_20251009_065101_212.webp', 'laboratorio vc 3.jpeg', 'laboratorio vc 4.jpeg', 'laboratorio vc.jpeg', 'letra caixa distak.jpeg',
       'letra caixa santa helena.jpeg', 'letra caixa vc cuiaba.jpeg', 'logo vc .jpeg', 'mansao pink entrada.jpeg',
       'outdoor undf.jpeg', 'painel decorativo ciplan.jpeg', 'pdv votorantim 2.jpeg', 'pdv votorantim.jpeg',
       'placa iluminada .jpeg', 'placa pvc expandido ciplan.jpeg', 'quadro herbalife.jpeg',
@@ -412,8 +398,6 @@ const portfolioFolders = [
       'empena ciplan.jpeg': 'Empena em lona para fábricas',
       'IMG-20241129-WA0199.jpg': 'Logo em acrílico com iluminação personalizada',
       'IMG-20250802-WA0119 (1).jpg': 'Outdoor de identificação',
-      'IMG-20250802-WA0119 (2).jpg': 'Outdoor de identificação',
-      'IMG-20250802-WA0119.jpg': 'Outdoor de identificação',
       'IMG-20251114-WA0029.jpg': 'Quadro impresso digitalmente',
       'IMG-20251229-WA0067.jpg': 'Logo personalizada conforme pedido do cliente',
       'IMG-20251229-WA0099.jpg': 'Outdoor promocional para empresa',
@@ -467,8 +451,8 @@ const portfolioFolders = [
     slug: 'roll-banner', label: 'ROLL BANNER', folder: 'roll banner',
     files: ['cavalete em t.jpeg', 'IMG-20251022-WA0271.jpg', 'IMG-20251210-WA0244.jpg', 'ROLL BANNER SEARA LATERAL.jpeg', 'ROLL BANNER SEARA.jpeg'],
     descriptions: {
-      'cavalete em t.jpeg': 'Roll Banner',
-      'IMG-20251022-WA0271.jpg': 'Roll Banner',
+      'cavalete em t.jpeg': 'Cavalete em T',
+      'IMG-20251022-WA0271.jpg': 'Flag Banner',
       'IMG-20251210-WA0244.jpg': 'Roll Banner',
       'ROLL BANNER SEARA LATERAL.jpeg': 'Roll Banner Seara',
       'ROLL BANNER SEARA.jpeg': 'Roll Banner Seara'
@@ -484,8 +468,6 @@ const portfolioFolders = [
       'totem de sinalização.jpeg', 'totem em mdf_.jpg', 'TOTEM MDF.jpeg',
       'WhatsApp Image 2026-03-11 at 18.20.34.jpeg', 'WhatsApp Image 2026-03-11 at 18.20.43.jpeg',
       'WhatsApp Image 2026-03-11 at 18.20.44.jpeg', 'WhatsApp Image 2026-03-11 at 18.20.47.jpeg',
-      'WhatsApp Image 2026-03-11 at 18.20.53.jpeg', 'WhatsApp Image 2026-03-11 at 18.20.54.jpeg',
-      'WhatsApp Image 2026-03-11 at 18.21.09.jpeg', 'WhatsApp Image 2026-03-11 at 18.21.10.jpeg',
       'WhatsApp Image 2026-03-11 at 18.21.12.jpeg', 'WhatsApp Image 2026-03-11 at 18.21.14.jpeg'
     ],
     descriptions: {
@@ -502,10 +484,6 @@ const portfolioFolders = [
       'WhatsApp Image 2026-03-11 at 18.20.43.jpeg': 'Totens',
       'WhatsApp Image 2026-03-11 at 18.20.44.jpeg': 'Totens',
       'WhatsApp Image 2026-03-11 at 18.20.47.jpeg': 'Totens',
-      'WhatsApp Image 2026-03-11 at 18.20.53.jpeg': 'Totens',
-      'WhatsApp Image 2026-03-11 at 18.20.54.jpeg': 'Totens',
-      'WhatsApp Image 2026-03-11 at 18.21.09.jpeg': 'Totens',
-      'WhatsApp Image 2026-03-11 at 18.21.10.jpeg': 'Totens',
       'WhatsApp Image 2026-03-11 at 18.21.12.jpeg': 'Totens',
       'WhatsApp Image 2026-03-11 at 18.21.14.jpeg': 'Totens'
     }
@@ -535,7 +513,7 @@ const portfolioFolders = [
 ];
 
 const portfolioCategories = [
-  { slug: 'banner', label: 'Banner', folders: ['banners'] },
+  { slug: 'banner', label: 'Lonas', folders: ['banners'] },
   { slug: 'roll-banner', label: 'Roll Banner', folders: ['roll-banner'] },
   { slug: 'backdrop', label: 'Backdrop Fotográfico', folders: ['backdrop-fotografico'] },
   {
@@ -555,19 +533,11 @@ const portfolioCategories = [
     label: 'Estruturas em ACM, Acrílico e PVC Expandido',
     folders: ['logo-em-acm', 'logo-em-acrilico', 'logo-em-pvc-expandido']
   },
-  { slug: 'gestao-quadros', label: 'Gestão de Quadros', folders: ['quadro-de-gestao'] },
+  { slug: 'gestao-quadros', label: 'Quadros de Gestão', folders: ['quadro-de-gestao'] },
   {
     slug: 'projetos-personalizados',
     label: 'Projetos Personalizados',
-    folders: [
-      'adesivagem-de-parede',
-      'adesivos-redondos',
-      'gravacao-em-laser',
-      'placa-de-homenagem',
-      'placa-de-sinalizacao',
-      'plotagem-de-carro',
-      'projetos-personalizados'
-    ]
+    folders: ['projetos-personalizados']
   }
 ];
 
@@ -579,6 +549,35 @@ function escapeHtml(text) {
 
 function imageAlt(file) {
   return file.replace(/\.[^.]+$/, '').replace(/[-_]/g, ' ');
+}
+
+function labelText(text) {
+  return text
+    .toLowerCase()
+    .replace(/\b\w/g, char => char.toUpperCase());
+}
+
+function projectDescription(file) {
+  const projectFolder = portfolioFolders.find(item => item.slug === 'projetos-personalizados');
+  return projectFolder?.descriptions?.[file] || '';
+}
+
+function portfolioDescription(category, folder, file, fileIndex) {
+  let fileDescription = folder.descriptions?.[file] || '';
+  if (!fileDescription && category.slug === 'projetos-personalizados') {
+    fileDescription = projectDescription(file);
+  }
+
+  const rule = category.descriptions?.find(item => item.first === undefined || fileIndex < item.first);
+  if (fileDescription || rule?.text || category.description) {
+    return fileDescription || rule?.text || category.description;
+  }
+
+  if (category.slug === 'projetos-personalizados') {
+    return labelText(imageAlt(file)) || labelText(folder.label);
+  }
+
+  return '';
 }
 
 function renderPortfolio() {
@@ -594,9 +593,7 @@ function renderPortfolio() {
       return folder.files.map((file, fileIndex) => {
         const src = `ARTES PARA SITE/${folder.folder}/${file}`;
         const alt = imageAlt(file);
-        const fileDescription = folder.descriptions?.[file] || '';
-        const rule = category.descriptions?.find(item => item.first === undefined || fileIndex < item.first);
-        const description = fileDescription || rule?.text || category.description || '';
+        const description = portfolioDescription(category, folder, file, fileIndex);
         return `<div class="portfolio-item reveal" data-category="${category.slug}" data-description="${escapeHtml(description)}"${folder.featured?.includes(file) ? " data-featured=\"true\"" : ""}>
           <div class="portfolio-img-wrap">
             <img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy"/>
