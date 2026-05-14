@@ -175,13 +175,12 @@ const portfolioFolders = [
   },
   {
     slug: 'backdrop-fotografico', label: 'BACKDROP FOTOGRÁFICO', folder: 'BANNERS',
-    files: ['IMG-20251210-WA0195.jpg', 'IMG-20250701-WA0363.jpg', 'IMG-20250802-WA0131.jpg', 'IMG-20251112-WA0188.jpg', 'outdoor ciplan 2.jpeg', 'outdoor ciplan.jpeg'],
+    files: ['IMG-20251210-WA0195.jpg', 'IMG-20250701-WA0363.jpg', 'IMG-20250802-WA0131.jpg', 'IMG-20251112-WA0188.jpg', 'outdoor ciplan.jpeg'],
     descriptions: {
       'IMG-20251210-WA0195.jpg': 'Backdrop',
       'IMG-20250701-WA0363.jpg': 'Backdrop',
       'IMG-20250802-WA0131.jpg': 'Backdrop',
       'IMG-20251112-WA0188.jpg': 'Backdrop',
-      'outdoor ciplan 2.jpeg': 'Backdrop',
       'outdoor ciplan.jpeg': 'Backdrop'
     }
   },
