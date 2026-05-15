@@ -550,6 +550,10 @@ function imageAlt(file) {
   return file.replace(/\.[^.]+$/, '').replace(/[-_]/g, ' ');
 }
 
+function assetPath(...parts) {
+  return parts.map(part => encodeURIComponent(part)).join('/');
+}
+
 function labelText(text) {
   return text
     .toLowerCase()
@@ -590,7 +594,7 @@ function renderPortfolio() {
       if (!folder) return [];
 
       return folder.files.map((file, fileIndex) => {
-        const src = `ARTES PARA SITE/${folder.folder}/${file}`;
+        const src = assetPath('ARTES PARA SITE', folder.folder, file);
         const alt = imageAlt(file);
         const description = portfolioDescription(category, folder, file, fileIndex);
         return `<div class="portfolio-item reveal" data-category="${category.slug}" data-description="${escapeHtml(description)}"${folder.featured?.includes(file) ? " data-featured=\"true\"" : ""}>
